@@ -15,5 +15,3 @@ Backend: Node.js with Express (for handling API requests)
 Database: MongoDB (for storing user preferences & history)
 AI/Machine Learning: TensorFlow.js or Face-api.js (for facial recognition)
 Authentication: Firebase or Auth0 (if user login is needed)
-Why This Project?
-This project is both fun and technically challenging, making it a great learning opportunity. It involves AI/ML integration, frontend/backend development, and user experience design. It also allows for creativity with food pairings and humor, making it engaging and unique. Working on this will improve skills in machine learning, full-stack development, and API integration, while also providing a fun tool that people can enjoy.
