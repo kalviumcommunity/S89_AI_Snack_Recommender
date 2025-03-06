@@ -28,5 +28,4 @@ Authentication: Firebase or Auth0 (if user login is needed)
     Database: MongoDB (for storing user preferences & history)
     AI/Machine Learning: TensorFlow.js or Face-api.js (for facial recognition)
     Authentication: Firebase or Auth0 (if user login is needed)
-    
-
+asdc
