@@ -3,8 +3,11 @@ const express = require("express");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 dotenv.config();
+const router = require("./Router");
 
 const app = express();
+
+app.use(express.json());
 
 app.get("/ping", (req, res) => {
     try {
@@ -23,9 +26,10 @@ app.get("/", (req, res) => {
 });
 
 
-
+app.use("/snack",router);
 
 app.listen(3000, async(err) => {
+    console.log(process.env.MONGO_URL)
     try {
         await mongoose.connect(process.env.MONGO_URL);
         console.log("Server connected successfully on port 3000");
