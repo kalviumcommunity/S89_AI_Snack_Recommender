@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Snack = require('./Schema');
+const Snack = require('../Schema');
 
 // Create a new snack reminder
 router.post('/snacks', async (req, res) => {
