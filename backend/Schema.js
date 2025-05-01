@@ -5,10 +5,6 @@ const SnackSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  reminderTime: {
-    type: Date,
-    required: true
-  },
   status: {
     type: String,
     enum: ['pending', 'completed'],
